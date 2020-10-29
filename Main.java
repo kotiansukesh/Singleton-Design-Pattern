@@ -1,4 +1,19 @@
+/*
+Properties
+	• Creational design pattern
+	• Only one instance of the class should exist
+	• Other classes should be able to get Instance of Singleton class
+	• Used in Logging, cache, session and drivers
+
+
+Implementation
+	• Constructor should be private
+	• Public method for returning instance
+	• Instance Type - private static
+*/
+
 class Main {
+
   public static void main(String[] args) {
     // eagerInitialization();
     // lazyInitialization();
